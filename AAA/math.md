@@ -1,1 +1,3 @@
-$\frac$
+$\frac23$
+trtg
+
