@@ -1,6 +1,13 @@
+filters:
+  and:
+    - file.inFolder("DriveSyncFiles")
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - and:
+            - file.basename.startsWith("Batusin")
     order:
       - file.name
   - type: cards
