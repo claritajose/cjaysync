@@ -6,7 +6,7 @@ views:
     name: Table
     order:
       - file.name
-      - file.tags
+      - file.mtime
     sort: []
   - type: cards
     name: View
