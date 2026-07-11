@@ -1,1 +1,4 @@
-![[Week 14 Topic 5 - Influence Lines for Moving Loads Handouts_copy.pdf]]
+
+| [[Cruz- W6- Triangles, Quadrilaterals, and Circles Handouts.pdf]] |     |
+| ----------------------------------------------------------------- | --- |
+| [[]]                                                              |     |
