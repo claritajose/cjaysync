@@ -4,9 +4,13 @@ filters:
 views:
   - type: table
     name: Table
+    groupBy:
+      property: Instructor
+      direction: ASC
     order:
       - file.name
       - file.mtime
+      - Instructor
     sort: []
   - type: cards
     name: View
