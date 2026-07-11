@@ -2,7 +2,7 @@ filters:
   and:
     - file.inFolder("DriveSyncFiles")
 summaries:
-  Batusin: file.name.contains(Batusin)
+  Batusin: file.name.split("-")[0].charAt(0).to
 views:
   - type: table
     name: Table
