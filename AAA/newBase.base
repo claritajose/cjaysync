@@ -1,5 +1,12 @@
 views:
   - type: table
     name: Table
+    filters:
+      and:
+        - file.inFolder("DriveSyncFiles")
+    order:
+      - file.name
+      - file.size
+      - file.basename
   - type: cards
     name: View
