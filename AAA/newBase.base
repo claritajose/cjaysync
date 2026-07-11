@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.inFolder("DriveSyncFiles")
+summaries:
+  Batusin: file.name.split("-")[0].charAt(0).to
+views:
+  - type: table
+    name: Table
+    groupBy:
+      property: Instructor
+      direction: ASC
+    order:
+      - file.name
+      - file.mtime
+      - Instructor
+    sort: []
+    summaries:
+      Instructor: Batusin
+  - type: cards
+    name: View
