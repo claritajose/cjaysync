@@ -1,14 +1,11 @@
 filters:
   and:
     - file.inFolder("DriveSyncFiles")
-formulas:
-  Untitled: ""
 views:
   - type: table
     name: Table
     order:
       - file.name
-      - formula.Untitled
     sort: []
   - type: cards
     name: View
