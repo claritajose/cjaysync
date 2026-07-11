@@ -1,6 +1,8 @@
 filters:
   and:
     - file.inFolder("DriveSyncFiles")
+summaries:
+  Batusin: ""
 views:
   - type: table
     name: Table
@@ -12,5 +14,7 @@ views:
       - file.mtime
       - Instructor
     sort: []
+    summaries:
+      Instructor: Batusin
   - type: cards
     name: View
