@@ -1,9 +1,6 @@
 views:
   - type: table
     name: Table
-    filters:
-      and:
-        - file.inFolder("DriveSyncFiles")
     order:
       - file.name
   - type: cards
