@@ -1,0 +1,1 @@
+![|302x48](https://excalidraw.com)
