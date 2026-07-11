@@ -1,1 +1,1 @@
-![[Pasted image 20260711191747.png|5000x500#invert_B|202x159]]
+![[Pasted image 20260711191747.png|#invert_B|300x250]]
