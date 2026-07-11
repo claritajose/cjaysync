@@ -4,10 +4,8 @@ filters:
 views:
   - type: table
     name: Table
-    groupBy:
-      property: file.size
-      direction: DESC
     order:
       - file.name
+    sort: []
   - type: cards
     name: View
