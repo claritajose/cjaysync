@@ -1,23 +1,20 @@
 summaries:
-  new summary: file.name.split("-")
+  Batusin: file.name.split("-")[0].charAt(0).to
 filters:
   and:
     - file.inFolder("DriveSyncFiles")
-formulas:
-  Untitled: file.name.split("-")[0]
-properties:
-  formula.Untitled:
-    displayName: Instructor
 views:
   - type: table
     name: Table
     groupBy:
-      property: formula.Untitled
+      property: Instructor
       direction: ASC
     order:
       - file.name
-      - Subject
+      - file.mtime
+      - Instructor
     sort: []
-    summaries: {}
+    summaries:
+      Instructor: Batusin
   - type: cards
     name: View

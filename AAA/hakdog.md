@@ -12,3 +12,5 @@
 
 
 ![[Doroy-W12-Calculus4-Handouts.pdf#page=1&rect=133,700,210,701&color=yellow|Doroy-W12-Calculus4-Handouts, p.1]]
+
+
