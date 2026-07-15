@@ -3,12 +3,8 @@ summaries:
 views:
   - type: table
     name: Table
-    groupBy:
-      property: file.ext
-      direction: ASC
     order:
       - file.name
-      - file.mtime
       - Instructor
     sort: []
     summaries:

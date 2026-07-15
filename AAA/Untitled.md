@@ -34,7 +34,7 @@ $$
 F=\frac{A}{i}[(1+i)^n-1]=P(1+i)^n
 $$
 
-`using summation function`
+`using sum function`
 
 ### using Summation
 $$
@@ -45,12 +45,12 @@ $$
 P=\sum_{start}^{end}[(A+Bx)(1+i)^{-x}]
 $$
 
-### Geometric Summation 
+### Geometric Summation
 $$
 P=\sum_{start}^{end}[(AB^x)(1+i)^{-x}]
 $$
 
-## Perpetual Annuity 
+## Perpetual Annuity
 $$
 P=\frac{A}{i}
 $$
@@ -81,7 +81,7 @@ $$
 $$
 
 
-### PW indexes:
+## PW indexes:
 
 $$
 •PW_1=\frac{PW_{of\ all\ future\ cashflow}}{Cost_{at\ yr.zero}}
@@ -98,5 +98,7 @@ $$
 | Replacement Analysis   |                       |                      |
 | Break-Even Analysis    |                       |                      |
 
-$\color{red}*$
-ROR- is the insterest Rate when PW is 0
+
+---
+$\color{red}*$others
+$\color{blue}ROR$- is the insterest Rate when PW is 0
