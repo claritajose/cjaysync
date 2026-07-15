@@ -1,4 +1,4 @@
-
+# EnCon
 
 ### simple interest 
 
@@ -88,5 +88,15 @@ $$
 $$
 
 $$
-•PW_2=\frac{PW_{of\ all\ positive\ cashflow}}{PW_{of\ all\ negative\ cashflow}
+•PW_2=\frac{PW_{of\ all\ positive\ cashflow}}{PW_{of\ all\ negative\ cashflow}}
 $$
+
+
+|                        | Same lives            | diff lives           |
+| ---------------------- | --------------------- | -------------------- |
+| Choice of Alternatives | choose the greater PW | choose the lesser PW |
+| Replacement Analysis   |                       |                      |
+| Break-Even Analysis    |                       |                      |
+
+$\color{red}*$
+ROR- is the insterest Rate when PW is 0
