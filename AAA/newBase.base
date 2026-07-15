@@ -1,13 +1,10 @@
 summaries:
   Batusin: file.name.split("-")[0].charAt(0).to
-filters:
-  and:
-    - file.inFolder("DriveSyncFiles")
 views:
   - type: table
     name: Table
     groupBy:
-      property: Instructor
+      property: file.ext
       direction: ASC
     order:
       - file.name
