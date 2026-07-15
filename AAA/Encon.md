@@ -1,0 +1,68 @@
+# EnCon
+
+### simple interest 
+
+$$
+F=P(1+rt)
+$$
+
+### compound interest 
+
+$$
+F=P(1+\frac{r}m)^{nm}
+$$
+
+#### effective interest rate
+$$
+I_{eff}= e^r-1
+$$
+$$
+I_{eff}= (1+\frac{r}m)^m-1
+$$
+$$
+I_{eff}= \frac{1+i_{nominal}}{1+i_{inflation}}-1
+$$
+
+
+## Annuity 
+
+$$
+P=\frac{A}{i}[1-(1+i)^{-n}]
+$$
+
+$$
+F=\frac{A}{i}[(1+i)^n-1]=P(1+i)^n
+$$
+
+`using sum function`
+
+### using Summation
+$$
+P=A\sum_{start}^{end}[(1+i)^{-x}]
+$$
+### Arithmetic Summation 
+$$
+P=\sum_{start}^{end}[(A+Bx)(1+i)^{-x}]
+$$
+
+### Geometric Summation
+$$
+P=\sum_{start}^{end}[(AB^x)(1+i)^{-x}]
+$$
+
+## Perpetual Annuity
+$$
+P=\frac{A}{i}
+$$
+
+
+
+## Equivalent Annual Cost
+
+$$
+EAC=FCi+OM+\frac{(FC-SV)i}{(1+i)^n-1}
+$$
+
+$$
+=\frac{PW}{\sum_1^n[(1+i)^{-x}]}
+$$
