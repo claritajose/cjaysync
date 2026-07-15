@@ -2,17 +2,21 @@ summaries:
   Batusin: file.name.split("-")[0].charAt(0).to
 filters:
   and:
-    - file.inFolder("DriveSyncFiles")
+    - file.inFolder("DriveSyncFiles/Review files")
+formulas:
+  Untitled: file.name.split("-")[0]
+properties:
+  formula.Untitled:
+    displayName: Instructor
 views:
   - type: table
     name: Table
     groupBy:
-      property: Instructor
+      property: formula.Untitled
       direction: ASC
     order:
       - file.name
       - file.mtime
-      - Instructor
     sort: []
     summaries:
       Instructor: Batusin
